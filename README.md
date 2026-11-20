@@ -87,13 +87,6 @@ The script prints confusion matrices and the results table, and saves:
 
 ---
 
-## 👥 Team
 
-Introduction to Data Science final project, **American International University-Bangladesh (AIUB)**
-
-- **Fayaz Abrar**
-- Ayon Ghosh
-- Dewan MD Fahim Foysal
-- Rupam Debnath Rodra
 
 📄 Full methodology, literature review and discussion are in the [project report](IDS_final_project_group_5.pdf).
