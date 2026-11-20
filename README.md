@@ -29,6 +29,13 @@ Held-out test set (N = 1,876), stratified 80/20 split.
 - 🔁 Naive Bayes scores identically under both representations, because its binary presence/absence encoding discards the weighting difference between BoW and TF-IDF.
 - 📌 The effect of representation is **classifier-dependent**, not universal.
 
+<p align="center">
+  <img src="fig2_f1_comparison.png" width="49%"/>
+  <img src="fig1_confusion_matrix.png" width="40%"/>
+</p>
+
+The best model (BoW + Logistic Regression) correctly flags **720 of 938** sarcastic texts (recall 0.77). Its main error is false positives: 341 non-sarcastic texts were labeled sarcastic.
+
 ---
 
 ## 🗂️ Dataset
@@ -82,11 +89,11 @@ The script prints confusion matrices and the results table, and saves:
 ├── HYP-sarc-notsarc.csv
 ├── RQ-sarc-notsarc.csv
 ├── ids_final_project_group_5.R      # full pipeline
+├── fig1_confusion_matrix.png
+├── fig2_f1_comparison.png
 └── IDS_final_project_group_5.pdf    # project report
 ```
 
 ---
-
-
 
 📄 Full methodology, literature review and discussion are in the [project report](IDS_final_project_group_5.pdf).
